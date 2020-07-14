@@ -1,0 +1,33 @@
+/*style page for index.html located in the same folder as INTRO_HTML*/
+/* Selectors */ 
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Type Selector */
+body {
+    background-color: tomato;
+}
+/*ID SELECTOR- ID's use a number, like 'what is your number? #19 */
+#topHeader {
+    color: red;
+    text-align: center; 
+    color: green;
+
+}
+/*CLASS selector */ /*Class is a 'period' in school */
+.topPara {
+    text-align: center;
+
+
+}
+
+.topList {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
