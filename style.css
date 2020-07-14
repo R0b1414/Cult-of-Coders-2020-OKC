@@ -1,33 +1,30 @@
-/*style page for index.html located in the same folder as INTRO_HTML*/
-/* Selectors */ 
-
+/* universal selector */ 
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
-/* Type Selector */
-body {
-    background-color: tomato;
-}
-/*ID SELECTOR- ID's use a number, like 'what is your number? #19 */
-#topHeader {
-    color: red;
-    text-align: center; 
-    color: green;
-
-}
-/*CLASS selector */ /*Class is a 'period' in school */
-.topPara {
-    text-align: center;
-
-
+.myDiv1{
+    height: 50px;
+    width: 50px;
+    background-color: lime;
 }
 
-.topList {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.myDiv2{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
 
+.myDiv3{
+    height: 50px;
+    width: 50px;
+    background-color: magenta;
+}
+
+.myDiv4{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
 }
